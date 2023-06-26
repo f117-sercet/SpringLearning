@@ -1,4 +1,2 @@
 # SpringLearning
-用来学习Spring源码的Demo仓库
-## spring中使用的设计模式
-## 
+用来学习Spring全家桶的仓库，深入到源码系列
