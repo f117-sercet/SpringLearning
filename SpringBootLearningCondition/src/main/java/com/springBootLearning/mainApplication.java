@@ -1,10 +1,10 @@
 package com.springBootLearning;
 
 import com.alibaba.druid.FastsqlException;
-import org.springframework.beans.FatalBeanException;
+import com.springBootLearning.bean.Cat;
+import com.springBootLearning.bean.Dog;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * Description： TODO
@@ -23,11 +23,10 @@ public class mainApplication {
         for (String name : names) {
             System.out.println(name);*/
 
-        String[] forType = ioc.getBeanNamesForType(FastsqlException.class);
+       /* String[] forType = ioc.getBeanNamesForType(FastsqlException.class);
 
-        for (String s : forType) {
-            System.out.println(s);
+
         }
+    }*/
     }
-
 }
