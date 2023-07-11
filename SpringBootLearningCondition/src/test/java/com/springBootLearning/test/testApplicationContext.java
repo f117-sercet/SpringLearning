@@ -3,6 +3,7 @@ package com.springBootLearning.test;
 import com.alibaba.druid.FastsqlException;
 import com.springBootLearning.bean.Cat;
 import com.springBootLearning.bean.Dog;
+import com.springBootLearning.bean.Pig;
 import com.springBootLearning.mainApplication;
 import jakarta.annotation.Resource;
 import org.apache.naming.factory.BeanFactory;
@@ -44,7 +45,7 @@ public class testApplicationContext {
 
         applicationContextAware.setApplicationContext(applicationContext);
 
-        Dog dog = (Dog) applicationContext.getBean("dog");
-        System.out.println(dog);
+        Pig pig = (Pig) applicationContext.getBean("pig");
+        System.out.println(pig);
     }
 }

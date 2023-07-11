@@ -1,2 +1,10 @@
 server:
   port: 8089
+
+pig:
+  id: 1
+  name: "王"
+
+Sheep:
+  id: 1
+  name: "123"

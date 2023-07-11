@@ -3,6 +3,8 @@ package com.springBootLearning;
 import com.alibaba.druid.FastsqlException;
 import com.springBootLearning.bean.Cat;
 import com.springBootLearning.bean.Dog;
+import com.springBootLearning.bean.Pig;
+import com.springBootLearning.bean.Sheep;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -18,15 +20,10 @@ public class mainApplication {
 
 
         var ioc = SpringApplication.run(mainApplication.class, args);
-/*
-        String[] names = ioc.getBeanDefinitionNames(FatalBeanException.class);
-        for (String name : names) {
-            System.out.println(name);*/
 
-       /* String[] forType = ioc.getBeanNamesForType(FastsqlException.class);
-
-
-        }
-    }*/
+        Pig pig = ioc.getBean(Pig.class);
+        System.out.println(pig);
+        Sheep sheep = ioc.getBean(Sheep.class);
+        System.out.println(sheep);
     }
-}
+    }
