@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringBootLearningCondition" />
+        <module name="logDemo" />
         <module name="SpringDemo" />
-        <module name="springBoot" />
         <module name="springBootPropertiesDemo" />
       </profile>
     </annotationProcessing>
@@ -18,7 +18,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringBootLearningCondition" options="-parameters" />
       <module name="SpringDemo" options="-parameters" />
-      <module name="springBoot" options="-parameters" />
+      <module name="logDemo" options="-parameters" />
+      <module name="springBoot" options="" />
       <module name="springBootPropertiesDemo" options="-parameters" />
     </option>
   </component>

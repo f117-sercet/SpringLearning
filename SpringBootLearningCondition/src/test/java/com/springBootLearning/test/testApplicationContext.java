@@ -36,14 +36,14 @@ public class testApplicationContext {
 
     @Resource
     private ApplicationContext applicationContext;
-    @Resource
-    private ApplicationContextAware applicationContextAware;
+    //@Resource
+   // private ApplicationContextAware applicationContextAware;
 
     @Test
     public void test01() throws Exception {
 
 
-        applicationContextAware.setApplicationContext(applicationContext);
+        //applicationContextAware.setApplicationContext(applicationContext);
 
         Pig pig = (Pig) applicationContext.getBean("pig");
         System.out.println(pig);
