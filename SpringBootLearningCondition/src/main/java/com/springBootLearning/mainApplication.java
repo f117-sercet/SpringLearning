@@ -7,6 +7,8 @@ import com.springBootLearning.bean.Pig;
 import com.springBootLearning.bean.Sheep;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  * Description： TODO
@@ -19,7 +21,7 @@ public class mainApplication {
     public static void main(String[] args) {
 
 
-        var ioc = SpringApplication.run(mainApplication.class, args);
+        var ioc = SpringApplication.run(mainApplication.class, args); 
 
         Pig pig = ioc.getBean(Pig.class);
         System.out.println(pig);
