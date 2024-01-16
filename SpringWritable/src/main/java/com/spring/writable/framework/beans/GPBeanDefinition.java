@@ -16,7 +16,7 @@ public class GPBeanDefinition {
     public String getBeanClassName() {
         return beanClassName;
     }
-    public void SetBeanClassName(String beanClassName){
+    public void setBeanClassName(String beanClassName){
         this.beanClassName = beanClassName;
 
     }
